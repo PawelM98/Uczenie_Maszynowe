@@ -3,7 +3,7 @@
 ### Działanie na obrazku herkules. Użytych zostało 14 funkcji
 
 ## Funkcja 1
-#### * Ładowanie i wyświetlanie obrazu
+### • Ładowanie i wyświetlanie obrazu
 
 Załadowanie obrazu metodą 'imread'. Za pomocą ".shape" wydobywamy: wysokość, szerokość oraz głębokość obrazu, który jest tablicą z pakietu numpy.
 Za pomocą metody "cv2.imshow" wyświetlamy obraz oraz nadajemy mu nazwe w okienku. Komenda cv2.waitKey zapobiega zniknięciu obrazka tuż po wyświetleniu.
@@ -11,16 +11,17 @@ Za pomocą metody "cv2.imshow" wyświetlamy obraz oraz nadajemy mu nazwe w okien
 ![](images/f1_herkules.PNG)
 
 ## Funkcja 2
-##### * Otrzymywanie indywidualnych pixeli
+#### • Otrzymywanie indywidualnych pixeli
 
 Wyświetlenie pixela RGB z lokalizacją x=50, y=100.
 ![](images/f2_rgb.PNG)
 
 
 ## Funkcja 3
-##### Przycinanie obrazka
+##### • Przycinanie obrazka
 
 ROI wycinanie obszaru zainteresowania z obrazka
+
 
 ![](images/f2_herkules.PNG)
 
