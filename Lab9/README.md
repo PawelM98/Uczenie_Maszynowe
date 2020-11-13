@@ -4,12 +4,12 @@ Działanie na obrazku herkules użycie 14 funkcji
 
 ## Funkcja 1
 *Opis
-![](herkules.jpeg)
+<img src="herkules.jpeg" width ="200" height="10">
 
 
 ## Funkcja 2
 *Opis
-![](bloczki.png)
+![](bloczki.PNG)
 
 
 ## Funkcja 3
