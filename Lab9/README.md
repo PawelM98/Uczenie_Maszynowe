@@ -5,9 +5,10 @@
 ## Funkcja 1
 ### • Ładowanie i wyświetlanie obrazu
 
-Załadowanie obrazu metodą 'imread'. Za pomocą ".shape" wydobywamy: wysokość, szerokość oraz głębokość obrazu, który jest tablicą z pakietu numpy.
+Załadowanie obrazu metodą 'imread'. 
+Za pomocą ".shape" wydobywamy: wysokość, szerokość oraz głębokość obrazu, który jest tablicą z pakietu numpy.
 Za pomocą metody "cv2.imshow" wyświetlamy obraz oraz nadajemy mu nazwe w okienku. Komenda cv2.waitKey zapobiega zniknięciu obrazka tuż po wyświetleniu.
-<!--<img src="herkules.jpeg" width ="200" height="10">-->
+
 ![](images/f1_herkules.PNG)
 
 ## Funkcja 2
@@ -21,7 +22,7 @@ Wyświetlenie pixela RGB z lokalizacją x=50, y=100.
 ## Funkcja 3
 ### • Przycinanie obrazka
 
-ROI wycinanie obszaru zainteresowania z obrazka
+ROI wycinanie obszaru zainteresowania z obrazka.
 
 ![](images/f2_herkules.PNG)
 
@@ -35,7 +36,7 @@ Zmiana rozmiaru obrazka z 747x400 na 200x200 bez uwzględnienia aspect ratio.
 ## Funkcja 5
 ### • Zmiana rozmiaru obrazka
 
-Uwzględnienie aspect ratio
+Uwzględnienie aspect ratio.
 
 ![](images/f4_herkules.PNG)
 
@@ -79,7 +80,12 @@ Użyte parametry kernel 11x11. Im większe, tym bardziej większe rozmazanie obr
 ## Funkcja 11
 ### • Rysowanie na obrazku
 
-Metoda "rectangle" w kolejności parametry: 1 obrazek na którym rysujemy, 2 startujący pixel, 3 pixel końcowy, 4 grubość linii.
+Metoda "rectangle" w kolejności parametry:
+1. Obrazek na którym rysujemy 
+2. Startujący pixel 
+3. Pixel końcowy 
+4. Grubość linii
+
 Jako punkt rysowania został obrany biceps herkulesa.
 
 ![](images/f10_herkules.PNG)
@@ -87,7 +93,13 @@ Jako punkt rysowania został obrany biceps herkulesa.
 ## Funkcja 12
 ### • Rysowanie na obrazku
 
-Metoda "circle": 1 obrazek na którym rysujemy, 2 usytuowanie okręgu, 3 radiacja okręgu, 4 kolor, 5 grubość linii.
+Metoda "circle": 
+1. obrazek na którym rysujemy
+2. usytuowanie okręgu
+3. radiacja okręgu
+4. kolor
+5. grubość linii
+
 Zmiana nosa Phila z czerwonego na niebieski.
 
 ![](images/f11_herkules.PNG)
