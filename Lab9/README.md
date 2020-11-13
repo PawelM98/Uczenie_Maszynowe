@@ -4,7 +4,9 @@ Działanie na obrazku herkules użycie 14 funkcji
 
 ## Funkcja 1
 *Opis
-![](filename%herkules.jpeg)
+![](herkules.jpeg)
+![](bloczki.png)
+
 
 ## Funkcja 2
 *Opis
