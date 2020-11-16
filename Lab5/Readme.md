@@ -22,10 +22,10 @@ Metoda *sents* wykrywa zdania, po czym zapisywane są one w liście za pomocą *
 ### • Wykrywanie zdań za pomocą 'sents' z dostosowaniem
 
 Funkcja *set_custom_boundaries* wykrywa wielokropek w zdaniu, oraz ustawia kolejny element po wielokropku jako początek nowego akapitu.<br>
-*def set_custom_boundaries(doc):*
-    *for token in doc[:-1]:*
-        *if token.text == '...':*
-            *doc[token.i+1].is_sent_start = True*
+*def set_custom_boundaries(doc):*<br>
+    *for token in doc[:-1]:*<br>
+        *if token.text == '...':*<br>
+            *doc[token.i+1].is_sent_start = True*<br>
     *return doc*<br>
 W tym przykładzie używamy nowej instancji modelu spaCy, po to aby użyć metody *set_custom_bouncaries* na innym tekście.<br>
 Metoda *add_pipe* wywołana jest przed konwersją na typ nlp. Dodany jest nowy ogranicznik jako wielokropek.<br>
