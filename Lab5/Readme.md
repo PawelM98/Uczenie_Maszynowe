@@ -47,58 +47,152 @@ Wydrukowanie każdego elementu obiektu about_doc, oraz jego indeksu startowego.
 
 Wydrkuownie kilku atrybutów, które dostarcza klasa Token dla każdego elementu jak powyżej.<br>
 Wykorzystane atrybuty tokena:<br>
-1. token.idx - index startowy tokena
-2. token.text_with_ws - wypisuje tekst tokena ze spacją końcową(jeśli obecna) 
-3. token.is_alpha - wykrywa czy token składa się ze znaków alfabetu, czy  nie
-4. token.is_punct - wykrywa czy token jest znakiem interpunkcyjnym,czy nie
-5. token.is_space - wykrywa czy token jest spacją, czy nie
-6. token.is_shape_- wypisuje kształt słowa
-7. token.is_stop - sparawdza czy token jest słowem stop, czy nie
+1. *token.idx* - index startowy tokena
+2. *token.text_with_ws* - wypisuje tekst tokena ze spacją końcową(jeśli obecna) 
+3. *token.is_alpha* - wykrywa czy token składa się ze znaków alfabetu, czy  nie
+4. *token.is_punct* - wykrywa czy token jest znakiem interpunkcyjnym,czy nie
+5. *token.is_space* - wykrywa czy token jest spacją, czy nie
+6. *token.is_shape_* - wypisuje kształt słowa
+7. *token.is_stop* - sparawdza czy token jest słowem stop, czy nie
 
 ![](images/tokenization2.PNG)
 
 ### • Wykrywanie podstawowych jednostek w tekście - dostosowywanie tokena
 
 Domyślne ustawienie atrybutów tokenizacji - prefix_re suffix_re itd. Poszczególne atrybuty tokena wyszukują w tekście:<br>
-1. nlp.vocab - kontener do przechowywania specjalnych przypadków np. emotikony 
-2. Prefix i suffix.search() - znajdują nawiasy otwarte i zamknięte
-3. Infix.search - oddzielenie wyrazu bez białej spacji np. myślnik
-4. Token_match - połączony ciąg znaków np. link
+1. *nlp.vocab* - kontener do przechowywania specjalnych przypadków np. emotikony 
+2. *Prefix* i *suffix.search()* - znajdują nawiasy otwarte i zamknięte
+3. *Infix.search* - oddzielenie wyrazu bez białej spacji np. myślnik
+4. *Token_match* - połączony ciąg znaków np. link
 
 ![](images/tokenization3.PNG)
 
 ![](images/tokenization3_1.PNG)
 
 ## Operacja 4 - Stop Words
-### • Działanie na ciągu znaków
+### • Wypisanie listy polskich słów stopu, które pojawiły się w naszym tekście.
 
-Tekst Opisowy
+Za pomocą *spacy.lan.pl.stop_words* pobieramy listę polskich słów stop.<br>
+Korzystając z bazy polskich słów stopu z naszego modelu możemy wypisać te słowa stopu, które znalazły się w naszym tekście.<br>
+Dodatkowo na samym początku wyświetlamy całkowitą liczbę tych słów z bazy.
+Wynik jest następujący:<br>
+![](images/stopwords1.PNG)
 
-### • Działanie na pliku tekstowym 
+### • Wypisanie z ciągu znaków w obiekcie about_doc słów które nie są słowami stop. W formie listy z for each'a.
 
-Tekst Opisowy
+Korzystamy tu z funkcji warunkowej *if not token.is_stop*<br>
+![](images/stopwords2.PNG)
 
-![](images/usingSpacy.PNG)
+### • Ponowne wypisanie słów, które nie są typu stop. W formie obiektu i atrybutów token.
+
+![](images/stopwords3.PNG)
 
 ## Operacja 5 - Lemmatization 
-### • Działanie na ciągu znaków
+### • Redukcja odmienionych form wyrazu. Zredukowana forma nazywa się Lematem.
 
-Tekst Opisowy
-
-### • Działanie na pliku tekstowym 
-
-Tekst Opisowy
-
-![](images/usingSpacy.PNG)
+Lematyzacja jest używana po to aby zredukować liczbę wyrazów o tym samym znaczeniu jednak innej formie.<br>
+Atrybut .lemma_ zawiera zlematyzowaną formę słowa, a więc drukujemy również normalną formę do porównania.<br>
+![](images/lemmatization.PNG)
 
 ## Operacja 6 - Word Frequency
-### • Działanie na ciągu znaków
+### • Wyciąganie z tekstu słów podobnych i ich częstotliwość, oraz słów wyjątkowych
 
-Tekst Opisowy
+Metoda *Counter* umożliwa zliczanie słów wyjątkowych oraz częstotliwość ich występowania.<br>
+Wypisanie 5 słów podobnych oraz ich częstotliwości z wyłączeniem słów stopu:<br>
+![](images/wordfq1.PNG)<br>
+Zliczenie wyrazów unikalnych(pojawiające się tylko raz w tekście):<br>
+![](images/wordfq2.PNG)<br>
+Wypisanie 5 słów podobnych wliczając słowa stopu:<br>
+![](images/wordfq3.PNG)<br>
 
-### • Działanie na pliku tekstowym 
+## Operacja 7 - Part of Speech Tagging 
+### • Rozpoznawanie jaką role gramatyczną pełni słowo w tekście
 
-Tekst Opisowy
+Atrybut *token.tag_* zawiera szczegółowe określenie części mowy.<br>
+Atrybut *token.pos_* zawiera ogólne określenie części mowy <br>
+Metoda *spacy.explain* zwraca opisowe detale danego taga.<br>
+![](images/PoS1.PNG)
 
-![](images/usingSpacy.PNG)
+Wypisanie słów danej kategorii z użyciem token.pos_. W poniższym przypadku rzeczowniki i przymiotniki:<br>
+![](images/PoS2.PNG)
+
+## Operacja 8 - Visualization: Using displaCY 
+### • Możliwość użycia do wizualizacji analizy zależności lub nazwanych jednostek
+
+Metoda *displacy.serve* wystawia obiekt nlp w wizualizacji na stronie, do której wyświetlany jest link.<br>
+![](images/visualization1.PNG)<br>
+![](images/visualization2.PNG)
+
+## Operacja 9 - Preprocessing Functions 
+### • Przygotowanie funkcji przetwarzania wstępnego
+
+Funkcja *is_token_allowed* zapewnia że jest to wyraz, który nie jest wyrazem stopu czy znakiem interpunkcyjnym.<br>
+Funkcja *preprocess_token* przetwarza wyrazy, w tym wypadku na lemat oraz na małe litery.<br>
+![](images/preprocessing1.PNG)<br>
+![](images/preprocessing2.PNG)
+
+## Operacja 10 - Rule-Based Matching Using spaCy 
+### • Wydobywanie z tekstu słów łączących się w jakiś wzorzec bądź składnię gramatyczną - Imie Nazwisko, Numer telefonu
+Używamy tutaj matchera. Obiekt *pattern* jest w tym przypadku listą tokenów do matchu.<br>
+Pattern służy nam do ustalania kształtu oraz szczegółów tokenów do wypisania<br>
+Matcher odpowiada za dopasowanie tokenów do wyszukiwanej składni.<br>
+1. *ORTH* oznacza wypisanie dokładnego tekstu tokena
+2. *SHAPE* zmienia tekst tokena na cechy ortograficzne
+3. *OP* definiuje dany operator. Znak zapytania oznacza że ten element obiektu pattern jest opcjonalny.<br>
+![](images/matching.PNG)
+
+## Operacja 11 - Dependency Parsing Using spaCy 
+### • Wykrywanie związku pomiędzy słowami w tekście
+
+1. *nsubj* - podmiot słowa, jego hasłem jest czasownik.
+2. *aux* - słowo pomocnicze, jego hasłem jest czasownik.
+3. *dobj* - bezpośrednie dopełnienie czasownika, jego hasłem jest czasownik.
+4. *ROOT* -
+5. *obj* -
+6. *case* -
+
+![](images/dependency1.PNG)<br>
+Aby lepiej przesdstawić znalezione zależności możemy użyć do tego poznanej wcześniej metody *displacy.serve*<br>
+![](images/dependency2.PNG)
+
+
+## Operacja 12 - Navigating the Tree and Subtree
+### • SpaCy dostarcza nam w ramach drzewa atrybuty children, lefts, rights, subtree
+
+Tekst: ***Paweł Michciński jest Python developerem pracującym dla firmy Finetech z lokalizacją w Londynie***<br>
+1. Wydobycie atrybutu *children* z wyrazu "developerem"
+2. Wydobycie wcześniejszego sąsiedniego wyrazu do wyrazu "developerem" z użyciem *.nbor(-1)*
+3. Wydobycie sąsiedniego wyrazu do wyrazu "developerem" z użyciem *.nbor()*
+4. Wydobycie wszystkich wyrazów na lewo od wyrazu "developerem"
+5. Wydobycie wszystkich wyrazów na prawo od wyrazu "developerem"
+6. Wydrukowanie poddrzewa wyrazu "developerem"
+
+Funkcja *faltten_tree* pobiera poddrzewo od danego wyrazu i zwraca ciąg tekstowy, scalając zawarte w nim słowa.<br>
+Wydrukowanie spłaszczonego poddrzewa słowa "developerem"<br>
+![](images/navigating1.PNG)
+
+## Operacja 13 - Shallow Parsing
+### • Wykrywanie fraz rzeczownikowych
+
+Własność *noun_chunks* pozwala na wyciąganie z tekstu fraz rzeczownikowych na podstawie token.pos_<br>
+
+### • Wykrywanie fraz czasownikowych
+
+
+## Operacja 14 - Named Entity Recognition
+### • Znajdowanie nazwanych obiektów w tekście
+
+Własność ent pozwala nam na wyszukanie różnych atrybutów w tekście. Użyte w przykładzie poniżej:
+1. *ent.text* - nazwa obiektu
+2. *ent.start_char* - startowy index nazwy obiektu
+3. *ent.end_char* - końcowy index nazwy obiektu
+4. *ent.label_* - nadaje etykietę podmiotu
+
+![](images/ner1.PNG)<br>
+Możemy to sobie również zwizualizować z pomocą displaCy:<br>
+![](images/ner2.PNG)
+
+### • Znajdowanie nazwanych obiektów w tekście - Imiona ludzi
+
+
 
