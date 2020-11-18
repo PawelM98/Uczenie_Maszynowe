@@ -40,7 +40,7 @@
                ' jabłka. Anna Nowak i Mariola Kowalska'
                ' lubią pomarańcze.')
 ### Navigation List:
-•[Operacja 1](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-1---using-spacy)<br>
+* [Operacja 1](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-1---using-spacy)<br>
 •[Operacja 2](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-2---sentence-detection)<br>
 •[Operacja 3](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-3---tokenization-in-spacy)<br>
 •[Operacja 4](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-4---stop-words)<br>
@@ -68,7 +68,7 @@ Odczytanie pliku tekstowego za pomocą metody *open.(filename).read()*. Konwersj
 
 ![](images/usingSpacy.PNG)
 
-[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#-navigation-list)<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#navigation-list)<br>
 ## Operacja 2 - Sentence Detection
 ### • Wykrywanie zdań za pomocą 'sents'
 
@@ -91,7 +91,7 @@ Zdania z dostosowaną metodą wielokropka:<br>
 Zdania bez dodatkowej metody:<br>
 ![](images/sentenceDetection3.PNG)
 
-[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#-navigation-list)<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#navigation-list)<br>
 ## Operacja 3 - Tokenization in spaCy
 ### • Wykrywanie podstawowych jednostek w tekście
 
@@ -126,7 +126,7 @@ Domyślne ustawienie atrybutów tokenizacji - prefix_re suffix_re itd. Poszczeg�
 
 ![](images/tokenization3_1.PNG)
 
-[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#-navigation-list)<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#navigation-list)<br>
 ## Operacja 4 - Stop Words
 ### • Wypisanie listy polskich słów stopu, które pojawiły się w naszym tekście.
 
@@ -145,7 +145,7 @@ Korzystamy tu z funkcji warunkowej *if not token.is_stop*<br>
 
 ![](images/stopwords3.PNG)
 
-[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#-navigation-list)<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#navigation-list)<br>
 ## Operacja 5 - Lemmatization 
 ### • Redukcja odmienionych form wyrazu. Zredukowana forma nazywa się Lematem.
 
@@ -153,7 +153,7 @@ Lematyzacja jest używana po to aby zredukować liczbę wyrazów o tym samym zna
 Atrybut .lemma_ zawiera zlematyzowaną formę słowa, a więc drukujemy również normalną formę do porównania.<br>
 ![](images/lemmatization.PNG)
 
-[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#-navigation-list)<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#navigation-list)<br>
 ## Operacja 6 - Word Frequency
 ### • Wyciąganie z tekstu słów podobnych i ich częstotliwość, oraz słów wyjątkowych
 
@@ -165,7 +165,7 @@ Zliczenie wyrazów unikalnych(pojawiające się tylko raz w tekście):<br>
 Wypisanie 5 słów podobnych wliczając słowa stopu:<br>
 ![](images/wordfq3.PNG)<br>
 
-[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#-navigation-list)<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#navigation-list)<br>
 ## Operacja 7 - Part of Speech Tagging 
 ### • Rozpoznawanie jaką role gramatyczną pełni słowo w tekście
 
@@ -177,7 +177,7 @@ Metoda *spacy.explain* zwraca opisowe detale danego taga.<br>
 Wypisanie słów danej kategorii z użyciem token.pos_. W poniższym przypadku rzeczowniki i przymiotniki:<br>
 ![](images/PoS2.PNG)
 
-[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#-navigation-list)<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#navigation-list)<br>
 ## Operacja 8 - Visualization: Using displaCY 
 ### • Możliwość użycia do wizualizacji analizy zależności lub nazwanych jednostek
 
@@ -185,7 +185,7 @@ Metoda *displacy.serve* wystawia obiekt nlp w wizualizacji na stronie, do które
 ![](images/visualization1.PNG)<br>
 ![](images/visualization2.PNG)
 
-[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#-navigation-list)<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#navigation-list)<br>
 ## Operacja 9 - Preprocessing Functions 
 ### • Przygotowanie funkcji przetwarzania wstępnego
 
@@ -194,7 +194,7 @@ Funkcja *preprocess_token* przetwarza wyrazy, w tym wypadku na lemat oraz na ma�
 ![](images/preprocessing1.PNG)<br>
 ![](images/preprocessing2.PNG)
 
-[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#-navigation-list)<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#navigation-list)<br>
 ## Operacja 10 - Rule-Based Matching Using spaCy 
 ### • Wydobywanie z tekstu słów łączących się w jakiś wzorzec bądź składnię gramatyczną - Imie Nazwisko, Numer telefonu
 Używamy tutaj matchera. Obiekt *pattern* jest w tym przypadku listą tokenów do matchu.<br>
@@ -205,7 +205,7 @@ Matcher odpowiada za dopasowanie tokenów do wyszukiwanej składni.<br>
 3. *OP* definiuje dany operator. Znak zapytania oznacza że ten element obiektu pattern jest opcjonalny.<br>
 ![](images/matching.PNG)
 
-[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#-navigation-list)<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#navigation-list)<br>
 ## Operacja 11 - Dependency Parsing Using spaCy 
 ### • Wykrywanie związku pomiędzy słowami w tekście
 
@@ -220,7 +220,7 @@ Matcher odpowiada za dopasowanie tokenów do wyszukiwanej składni.<br>
 Aby lepiej przesdstawić znalezione zależności możemy użyć do tego poznanej wcześniej metody *displacy.serve*<br>
 ![](images/dependency2.PNG)
 
-[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#-navigation-list)<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#navigation-list)<br>
 ## Operacja 12 - Navigating the Tree and Subtree
 ### • SpaCy dostarcza nam w ramach drzewa atrybuty children, lefts, rights, subtree
 
@@ -236,7 +236,7 @@ Funkcja *faltten_tree* pobiera poddrzewo od danego wyrazu i zwraca ciąg tekstow
 Wydrukowanie spłaszczonego poddrzewa słowa "developerem"<br>
 ![](images/navigating1.PNG)
 
-[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#-navigation-list)<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#navigation-list)<br>
 ## Operacja 13 - Shallow Parsing
 ### • Wykrywanie fraz rzeczownikowych
 
@@ -244,7 +244,7 @@ Własność *noun_chunks* pozwala na wyciąganie z tekstu fraz rzeczownikowych n
 
 ### • Wykrywanie fraz czasownikowych
 
-[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#-navigation-list)<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#navigation-list)<br>
 ## Operacja 14 - Named Entity Recognition
 ### • Znajdowanie nazwanych obiektów w tekście
 
@@ -260,6 +260,6 @@ Możemy to sobie również zwizualizować z pomocą displaCy:<br>
 
 ### • Znajdowanie nazwanych obiektów w tekście - Imiona ludzi
 
-[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#-navigation-list)<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#navigation-list)<br>
 
 
