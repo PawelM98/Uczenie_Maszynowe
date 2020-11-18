@@ -1,44 +1,18 @@
 # Praca z tekstem - spaCy
 ### Wszystkie teksty użyte podczas Laboratorium: 
 
-1. introduction_text = ('To jest tutorial o przetwarzaniu naturalnych języków w Spacy.')
-2. about_text = ('Paweł Michciński jest studentem Informatyki na Akademi '
-              'Marynarki Wojennej od Października 2017 roku.'
-              ' Jest on zainteresowany przetwarzaniem języka naturalnego - NLP.')
-3. ellipsis_text = ('Robert, czy możesz, ... nie ważne, Zapomniałem'
-                 ' co chciałem powiedzieć. Więc, myślisz'
-                 ' że powinniśmy ...')              
-4. conference_help_text = ('Paweł pomaga w zorganizowaniu'
-                         ' konferencji o aplikacjach przetwarzania języków'
-                         ' naturalnych. Stale organizuje lokalne spotkania Pythonowe'
-                         ' oraz kilka spotkań organizacyjnych w jego miejscu pracy.')
-5. complete_text = ('Paweł Michciński jest Python developerem '
-                 'pracującym dla firmy Finetech z lokalizacją w Londynie. Jest'
-                 ' zainteresowany nauką przetwarzania naturalnych języków NLP.'
-                 ' 21 Lipca 2019 w Londynie odbywa się'
-                 ' developerska konferencja. Jest zatytuowana "Aplikacje przetwarzania'
-                 ' języków naturalnych NLP". Linia pomocnicza znajduje się'
-                 ' pod numerem +48-123456789. Paweł pomaga w organizacji.'
-                 ' Paweł jest specjalistą od organizacji, od kiedy jest w tej firmie')              
-6. conference_org_text = ('Istniejąca developerska konferencja'
-                        'mająca miejsce 21 Lipca 2019 w Londynie. Nosi tytuł'
-                        ' " języka naturalnego".'
-                        ' Numer pomocniczy jest następujący:'
-                        ' (123) 456-789')                     
-7. piano_text = 'Paweł uczy gry na fortepianie'
-8. one_line_about_text = 'Paweł Michciński jest Python developerem pracującym dla firmy Finetech z lokalizacją w Londynie'
-9. conference_text = ('Konferencja developerska jest '
-                    ' 21 Lipca 2019 roku w mieście Londyn.')
-10. about_talk_text = ('Przedstawienie będzie mówiło uczestnikowi o'
-                    ' zagadnieniach przetwarzania naturalnych języków NLP'
-                    ' w firmie Fintech')
-11. piano_class_text = ('Akademia Piano jest usytuowana'
-                     ' w Lublinie lub w mieście Warszawa i ma'
-                     ' światowej klasy instruktorów pianina.')
-12. survey_text = ('Spośród 5 ankietowanych osób, Paweł Michciński,'
-               ' Jan Kowalski i Andrzej Nowak lubią'
-               ' jabłka. Anna Nowak i Mariola Kowalska'
-               ' lubią pomarańcze.')
+1. introduction_text = **To jest tutorial o przetwarzaniu naturalnych języków w Spacy.**
+2. about_text = **Paweł Michciński jest studentem Informatyki na Akademi Marynarki Wojennej od Października 2017 roku. Jest on zainteresowany przetwarzaniem języka naturalnego - NLP.**
+3. ellipsis_text = **Robert, czy możesz, ... nie ważne, Zapomniałem co chciałem powiedzieć. Więc, myślisz że powinniśmy ...**
+4. conference_help_text = **Paweł pomaga w zorganizowaniu konferencji o aplikacjach przetwarzania języków naturalnych. Stale organizuje lokalne spotkania Pythonowe oraz kilka spotkań organizacyjnych w** **jego **miejscu pracy.**
+5. complete_text = **Paweł Michciński jest Python developerem pracującym dla firmy Finetech z lokalizacją w Londynie. Jest zainteresowany nauką przetwarzania naturalnych języków NLP. 21 Lipca 2019 w** **Londynie odbywa się developerska konferencja. Jest zatytuowana "Aplikacje przetwarzania języków naturalnych NLP". Linia pomocnicza znajduje się pod numerem +48-123456789. Paweł pomaga w organizacji.** **Paweł jest specjalistą od organizacji, od kiedy jest w tej firmie.**
+6. conference_org_text = **Istniejąca developerska konferencja mająca miejsce 21 Lipca 2019 w Londynie. Nosi tytuł "języka naturalnego". Numer pomocniczy jest następujący: (123) 456-789**
+7. piano_text = **Paweł uczy gry na fortepianie**
+8. one_line_about_text = **Paweł Michciński jest Python developerem pracującym dla firmy Finetech z lokalizacją w Londynie**
+9. conference_text = **Konferencja developerska jest 21 Lipca 2019 roku w mieście Londyn.**
+10. about_talk_text = **Przedstawienie będzie mówiło uczestnikowi o zagadnieniach przetwarzania naturalnych języków NLP w firmie Fintech**
+11. piano_class_text = **Akademia Piano jest usytuowana w Lublinie lub w mieście Warszawa i ma światowej klasy instruktorów pianina.**
+12. survey_text = **Spośród 5 ankietowanych osób, Paweł Michciński, Jan Kowalski i Andrzej Nowak lubią jabłka. Anna Nowak i Mariola Kowalska lubią pomarańcze.**
 ### Navigation List:
 * [Operacja 1](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-1---using-spacy)<br>
 * [Operacja 2](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-2---sentence-detection)<br>
