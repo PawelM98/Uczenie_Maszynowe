@@ -1,0 +1,1 @@
+To jest tutorial o przetwarzaniu naturalnych języków w Spacy.
