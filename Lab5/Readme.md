@@ -14,20 +14,20 @@
 11. piano_class_text = **Akademia Piano jest usytuowana w Lublinie lub w mieście Warszawa i ma światowej klasy instruktorów pianina.**
 12. survey_text = **Spośród 5 ankietowanych osób, Paweł Michciński, Jan Kowalski i Andrzej Nowak lubią jabłka. Anna Nowak i Mariola Kowalska lubią pomarańcze.**
 ### Navigation List:
-* [Operacja 1](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-1---using-spacy)<br>
-* [Operacja 2](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-2---sentence-detection)<br>
-* [Operacja 3](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-3---tokenization-in-spacy)<br>
-* [Operacja 4](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-4---stop-words)<br>
-* [Operacja 5](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-5---lemmatization)<br>
-* [Operacja 6](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-6---word-frequency)<br>
-* [Operacja 7](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-7---part-of-speech-tagging)<br>
-* [Operacja 8](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-8---visualization-using-displacy)<br>
-* [Operacja 9](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-9---preprocessing-functions)<br>
-* [Operacja 10](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-10---rule-based-matching-using-spacy)<br>
-* [Operacja 11](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-11---dependency-parsing-using-spacy)<br>
-* [Operacja 12](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-12---navigating-the-tree-and-subtree)<br>
-* [Operacja 13](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-13---shallow-parsing)<br>
-* [Operacja 14](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-14---named-entity-recognition)<br>
+* [Operacja 1 - Using spaCy](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-1---using-spacy)<br>
+* [Operacja 2 - Sentence Detection](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-2---sentence-detection)<br>
+* [Operacja 3 - Tokenization in spaCy](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-3---tokenization-in-spacy)<br>
+* [Operacja 4 - Stop Words](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-4---stop-words)<br>
+* [Operacja 5 - Lemmatization](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-5---lemmatization)<br>
+* [Operacja 6 - Word Frequency](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-6---word-frequency)<br>
+* [Operacja 7 - Part of Speech Tagging](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-7---part-of-speech-tagging)<br>
+* [Operacja 8 - Visualization: Using displaCy](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-8---visualization-using-displacy)<br>
+* [Operacja 9 - Preprocessing Functions](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-9---preprocessing-functions)<br>
+* [Operacja 10 - Rule-Based Matching Using spaCy](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-10---rule-based-matching-using-spacy)<br>
+* [Operacja 11 - Dependency Parsing Using spaCy](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-11---dependency-parsing-using-spacy)<br>
+* [Operacja 12 - Navigating the Tree and Subtree](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-12---navigating-the-tree-and-subtree)<br>
+* [Operacja 13 - Shallow Parsing](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-13---shallow-parsing)<br>
+* [Operacja 14 - Named Entity Recognition](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-14---named-entity-recognition)<br>
 
 ### Poniżej znajduje się opis oraz wyniki działania 14 typów operacji na tekście z użyciem biblioteki spaCy.
 
