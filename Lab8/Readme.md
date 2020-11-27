@@ -10,25 +10,25 @@ Praca na dokumentach CSV podzielona na podrozdziały:
 
 ## Navigation List:
 ### JSON
-* [Funkcja 1 - Trochę słownictwa](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-troch%C4%99-s%C5%82ownictwa)<br>
-* [Funkcja 2 - Serializacja JSON](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-serializacja-json)<br>
-* [Funkcja 3 - Prosty przykład serializacji](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-prosty-przyk%C5%82ad-serializacji)<br>
-* [Funkcja 4 - Kilka przydatnych argumentów słów kluczowych](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-kilka-przydatnych-argument%C3%B3w-s%C5%82%C3%B3w-kluczowych)<br>
-* [Funkcja 5 - Deserializacja JSON](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-deserializacja-json)<br>
-* [Funkcja 6 - Prosty przykład deserializacji](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-prosty-przyk%C5%82ad-deserializacji)<br>
-* [Funkcja 7 - Przykład z prawdziwego świata(w pewnym sensie)](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#przyk%C5%82ad-z-prawdziwego-%C5%9Bwiataw-pewnym-sensie)<br>
-* [Funkcja 8 - Upraszczanie struktur danych](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-upraszczanie-struktur-danych)<br>
-* [Funkcja 9 - Kodowanie typów niestandardowych](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-kodowanie-typ%C3%B3w-niestandardowych)<br>
-* [Funkcja 10 - Dekodowanie typów niestandardowych](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-dekodowanie-typ%C3%B3w-niestandardowych)<br>
+* [Trochę słownictwa](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-troch%C4%99-s%C5%82ownictwa)<br>
+* [Serializacja JSON](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-serializacja-json)<br>
+* [Prosty przykład serializacji](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-prosty-przyk%C5%82ad-serializacji)<br>
+* [Kilka przydatnych argumentów słów kluczowych](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-kilka-przydatnych-argument%C3%B3w-s%C5%82%C3%B3w-kluczowych)<br>
+* [Deserializacja JSON](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-deserializacja-json)<br>
+* [Prosty przykład deserializacji](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-prosty-przyk%C5%82ad-deserializacji)<br>
+* [Przykład z prawdziwego świata(w pewnym sensie)](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#przyk%C5%82ad-z-prawdziwego-%C5%9Bwiataw-pewnym-sensie)<br>
+* [Upraszczanie struktur danych](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-upraszczanie-struktur-danych)<br>
+* [Kodowanie typów niestandardowych](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-kodowanie-typ%C3%B3w-niestandardowych)<br>
+* [Dekodowanie typów niestandardowych](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-dekodowanie-typ%C3%B3w-niestandardowych)<br>
 
 ### CSV
-* [Funkcja 1 - Czytanie plików CSV za pomocą csv](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-czytanie-plik%C3%B3w-csv-za-pomoc%C4%85-csv)<br>
-* [Funkcja 2 - Czytanie plików CSV do słownika za pomocą csv](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-czytanie-plik%C3%B3w-csv-do-s%C5%82ownika-za-pomoc%C4%85-csv)<br>
-* [Funkcja 3 - Opcjonalne parametry czytnika CSV w języku Python](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-opcjonalne-parametry-czytnika-csv-w-j%C4%99zyku-python)<br>
-* [Funkcja 4 - Pisanie plików CSV za pomocą csv](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-pisanie-plik%C3%B3w-csv-za-pomoc%C4%85-csv)<br>
-* [Funkcja 5 - Zapisywanie pliku CSV ze słownika za pomocą csv](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-zapisywanie-pliku-csv-ze-s%C5%82ownika-za-pomoc%C4%85-csv)<br>
-* [Funkcja 6 - Czytanie plików CSV za pomocą pandas](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-czytanie-plik%C3%B3w-csv-za-pomoc%C4%85-pandas)<br>
-* [Funkcja 7 - Pisanie plików CSV za pomocą pandas](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-pisanie-plik%C3%B3w-csv-za-pomoc%C4%85-pandas)<br>
+* [Czytanie plików CSV za pomocą csv](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-czytanie-plik%C3%B3w-csv-za-pomoc%C4%85-csv)<br>
+* [Czytanie plików CSV do słownika za pomocą csv](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-czytanie-plik%C3%B3w-csv-do-s%C5%82ownika-za-pomoc%C4%85-csv)<br>
+* [Opcjonalne parametry czytnika CSV w języku Python](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-opcjonalne-parametry-czytnika-csv-w-j%C4%99zyku-python)<br>
+* [Pisanie plików CSV za pomocą csv](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-pisanie-plik%C3%B3w-csv-za-pomoc%C4%85-csv)<br>
+* [Zapisywanie pliku CSV ze słownika za pomocą csv](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-zapisywanie-pliku-csv-ze-s%C5%82ownika-za-pomoc%C4%85-csv)<br>
+* [Czytanie plików CSV za pomocą pandas](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-czytanie-plik%C3%B3w-csv-za-pomoc%C4%85-pandas)<br>
+* [Pisanie plików CSV za pomocą pandas](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-pisanie-plik%C3%B3w-csv-za-pomoc%C4%85-pandas)<br>
 
 ### Poniżej znajduje się opis oraz wyniki działania operacji na plikach za pomocą Pythona.
 
@@ -43,14 +43,14 @@ Deserializacja - wzajemny proces dekodowania danych, któe zostały zapisane lub
 *dump()* - metoda ta zapisuje dane do plików<br>
 *dumps()* - metoda do zapisu w łańcuchu Pythona<br>
 Obiekty Pythona i JSONA odpowiadające sobie:<br>
-**PYTHON**          **JSON**<br>
-dict                object<br>
-list, tuple         array<br>
-str                 string<br>
-int,long,float      number<br>
-True                true<br>
-False               false<br>
-None                null<br>
+**PYTHON**     -     **JSON**<br>
+dict     -           object<br>
+list, tuple     -    array<br>
+str     -            string<br>
+int,long,float     - number<br>
+True     -           true<br>
+False     -          false<br>
+None     -           null<br>
 [NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
 #### • Prosty przykład serializacji
