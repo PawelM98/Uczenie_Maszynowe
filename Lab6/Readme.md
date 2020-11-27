@@ -1,8 +1,8 @@
 # Praca z plikami
 ### Navigation List:
-* [Operacja 1 - Otwieranie i zamykanie pliku w Pythonie](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-1---using-spacy)<br>
-* [Operacja 2 - Czytanie i pisanie otwartych plików](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-2---sentence-detection)<br>
-* [Operacja 3 - Porady i wskazówki](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#operacja-3---tokenization-in-spacy)<br>
+* [Operacja 1 - Otwieranie i zamykanie pliku w Pythonie](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab6#operacja-1---otwieranie-i--zamykanie-pliku-w-pythonie)<br>
+* [Operacja 2 - Czytanie i pisanie otwartych plików](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab6#operacja-2---czytanie-i-pisanie-otwartych-plik%C3%B3w)<br>
+* [Operacja 3 - Porady i wskazówki](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab6#operacja-3---porady-i-wskaz%C3%B3wki)<br>
 
 ### Poniżej znajduje się opis oraz wyniki działania operacji na plikach za pomocą Pythona.
 
@@ -19,7 +19,7 @@ With open posiada drugi argument "mode" przyjmuje on wartości:
 * 'rb' lub 'wb' - Otwórz w trybie binarnym
 
 ### • Typy plików tekstowych
-Pliki tekstowe otwierane za pomocą open() zwracają TextIOWrapper obiekt pliku:<br>
+Pliki tekstowe otwierane za pomocą open() zwracają  obiekt TextIOWrapper pliku:<br>
 ![](images/tekstowy.PNG)<br>
 ![](images/tekstowyODP.PNG)<br>
 
@@ -33,18 +33,18 @@ Otwieranie takiego pliku wykorzystuje dodatkowy argument buffering i przyjmuje w
 Pliki tego typu za pomocą open() zwracają obiekt FileIO pliku:<br>
 ![](images/surowe.PNG)<br>
 
-[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#navigation-list)<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab6#navigation-list)<br>
 
 ## Operacja 2 - Czytanie i pisanie otwartych plików
 ### • Praktyczne użycie metod '.read(size=-1)', '.readline(size=-1)', '.readlines()' oraz with open
 * .read(size=-1) - Odczytuje z pliku na podstawie liczby sizebajtów. Jeśli żaden argument nie jest przekazywana lub Noneczy -1zostanie przyjęta, wtedy cały plik jest odczytywany.
 * .readline(size=-1) - Odczytuje maksymalnie sizeliczbę znaków z wiersza. To trwa do końca linii, a następnie zawija się z powrotem. Jeśli żaden argument nie jest przekazywana lub Noneczy -1zostanie przyjęta, wtedy cała linia (lub reszta linii) jest odczytywany.
 * .readlines() - To odczytuje pozostałe wiersze z obiektu pliku i zwraca je jako listę.
-1. read
+1. read<br>
     ![](images/read.PNG)<br>
-2. readline
+2. readline<br>
     ![](images/readline.PNG)<br>
-3. readlines
+3. readlines<br>
     Za pomocą readlines()<br>
     ![](images/readlines.PNG)<br>
     Za pomocą list():<br>
@@ -81,7 +81,7 @@ Otwarcie pliku PNG  i odczytanie indywidualnych bajtów:<br>
 
 
 
-[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#navigation-list)<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab6#navigation-list)<br>
 
 ## Operacja 3 - Porady i wskazówki
 ### • Dołączanie do pliku
@@ -97,7 +97,7 @@ Opisac
 
 
 
-[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab5#navigation-list)<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab6#navigation-list)<br>
 
 
 
