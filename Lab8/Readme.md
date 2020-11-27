@@ -10,211 +10,121 @@ Praca na dokumentach CSV podzielona na podrozdziały:
 
 ## Navigation List:
 ### JSON
-* [Funkcja 1 - Trochę słownictwa]()<br>
-* [Funkcja 2 - Serializacja JSON]()<br>
-* [Funkcja 3 - Prosty przykład serializacji]()<br>
-* [Funkcja 4 - Kilka przydatnych argumentów słów kluczowych]()<br>
-* [Funkcja 5 - Deserializacja JSON]()<br>
-* [Funkcja 6 - Prosty przykład deserializacji]()<br>
-* [Funkcja 7 - Przykład z prawdziwego świata(w pewnym sensie)]()<br>
-* [Funkcja 8 - Upraszczanie struktur danych]()<br>
-* [Funkcja 9 - Kodowanie typów niestandardowych]()<br>
-* [Funkcja 10 - Dekodowanie typów niestandardowych]()<br>
+* [Funkcja 1 - Trochę słownictwa](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-troch%C4%99-s%C5%82ownictwa)<br>
+* [Funkcja 2 - Serializacja JSON](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-serializacja-json)<br>
+* [Funkcja 3 - Prosty przykład serializacji](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-prosty-przyk%C5%82ad-serializacji)<br>
+* [Funkcja 4 - Kilka przydatnych argumentów słów kluczowych](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-kilka-przydatnych-argument%C3%B3w-s%C5%82%C3%B3w-kluczowych)<br>
+* [Funkcja 5 - Deserializacja JSON](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-deserializacja-json)<br>
+* [Funkcja 6 - Prosty przykład deserializacji](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-prosty-przyk%C5%82ad-deserializacji)<br>
+* [Funkcja 7 - Przykład z prawdziwego świata(w pewnym sensie)](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#przyk%C5%82ad-z-prawdziwego-%C5%9Bwiataw-pewnym-sensie)<br>
+* [Funkcja 8 - Upraszczanie struktur danych](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-upraszczanie-struktur-danych)<br>
+* [Funkcja 9 - Kodowanie typów niestandardowych](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-kodowanie-typ%C3%B3w-niestandardowych)<br>
+* [Funkcja 10 - Dekodowanie typów niestandardowych](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-dekodowanie-typ%C3%B3w-niestandardowych)<br>
 
 ### CSV
-* [Funkcja 1 - Czytanie plików CSV za pomocą csv]()<br>
-* [Funkcja 2 - Czytanie plików CSV do słownika za pomocą csv]()<br>
-* [Funkcja 3 - Opcjonalne parametry czytnika CSV w języku Python]()<br>
-* [Funkcja 4 - Pisanie plików CSV za pomocą csv]()<br>
-* [Funkcja 5 - Zapisywanie pliku CSV ze słownika za pomocą csv]()<br>
-* [Funkcja 6 - Czytanie plików CSV za pomocą pandas]()<br>
-* [Funkcja 7 - Pisanie plików CSV za pomocą pandas]()<br>
+* [Funkcja 1 - Czytanie plików CSV za pomocą csv](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-czytanie-plik%C3%B3w-csv-za-pomoc%C4%85-csv)<br>
+* [Funkcja 2 - Czytanie plików CSV do słownika za pomocą csv](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-czytanie-plik%C3%B3w-csv-do-s%C5%82ownika-za-pomoc%C4%85-csv)<br>
+* [Funkcja 3 - Opcjonalne parametry czytnika CSV w języku Python](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-opcjonalne-parametry-czytnika-csv-w-j%C4%99zyku-python)<br>
+* [Funkcja 4 - Pisanie plików CSV za pomocą csv](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-pisanie-plik%C3%B3w-csv-za-pomoc%C4%85-csv)<br>
+* [Funkcja 5 - Zapisywanie pliku CSV ze słownika za pomocą csv](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-zapisywanie-pliku-csv-ze-s%C5%82ownika-za-pomoc%C4%85-csv)<br>
+* [Funkcja 6 - Czytanie plików CSV za pomocą pandas](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-czytanie-plik%C3%B3w-csv-za-pomoc%C4%85-pandas)<br>
+* [Funkcja 7 - Pisanie plików CSV za pomocą pandas](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#-pisanie-plik%C3%B3w-csv-za-pomoc%C4%85-pandas)<br>
 
 ### Poniżej znajduje się opis oraz wyniki działania operacji na plikach za pomocą Pythona.
 
 ## JSON - operacje na plikach JSON'owych
 ### Natywne obsługiwanie JSON'a przez Pythona
-##### • Trochę słownictwa
+#### • Trochę słownictwa
 Tekst<br>
 ![](images/zdjecie.PNG)<br>
-[NaviList]()<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
-##### • Serializacja JSON
+#### • Serializacja JSON
 Tekst<br>
 ![](images/zdjecie.PNG)<br>
-[NaviList]()<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
-##### • Prosty przykład serializacji
+#### • Prosty przykład serializacji
 Tekst<br>
 ![](images/zdjecie.PNG)<br>
-[NaviList]()<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
-##### • Kilka przydatnych argumentów słów kluczowych
+#### • Kilka przydatnych argumentów słów kluczowych
 Tekst<br>
 ![](images/zdjecie.PNG)<br>
-[NaviList]()<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
-##### • Deserializacja JSON
+#### • Deserializacja JSON
 Tekst<br>
 ![](images/zdjecie.PNG)<br>
-[NaviList]()<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
-##### • Prosty przykład deserializacji
+#### • Prosty przykład deserializacji
 Tekst<br>
 ![](images/zdjecie.PNG)<br>
-[NaviList]()<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
 ### Przykład z prawdziwego świata(w pewnym sensie)
 Tekst<br>
 ![](images/zdjecie.PNG)<br>
-[NaviList]()<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
 ### Kodowanie i dekodowanie niestandardowych obiektów Pythona
-##### • Upraszczanie struktur danych
+#### • Upraszczanie struktur danych
 Tekst<br>
 ![](images/zdjecie.PNG)<br>
-[NaviList]()<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
-##### • Kodowanie typów niestandardowych
+#### • Kodowanie typów niestandardowych
 Tekst<br>
 ![](images/zdjecie.PNG)<br>
-[NaviList]()<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
-##### • Dekodowanie typów niestandardowych
+#### • Dekodowanie typów niestandardowych
 Tekst<br>
 ![](images/zdjecie.PNG)<br>
-[NaviList]()<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
 
 ## CSV - operacje na plikach CSV
 ### Analiza plików CSV z wbudowaną biblioteką CSV języka Python
-##### • Czytanie plików CSV za pomocą csv
+#### • Czytanie plików CSV za pomocą csv
 Tekst<br>
 ![](images/zdjecie.PNG)<br>
-[NaviList]()<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
-##### • Czytanie plików CSV do słownika za pomocą csv
+#### • Czytanie plików CSV do słownika za pomocą csv
 Tekst<br>
 ![](images/zdjecie.PNG)<br>
-[NaviList]()<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
-##### • Opcjonalne parametry czytnika CSV w języku Python
+#### • Opcjonalne parametry czytnika CSV w języku Python
 Tekst<br>
 ![](images/zdjecie.PNG)<br>
-[NaviList]()<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
-##### • Pisanie plików CSV za pomocą csv
+#### • Pisanie plików CSV za pomocą csv
 Tekst<br>
 ![](images/zdjecie.PNG)<br>
-[NaviList]()<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
-##### • Zapisywanie pliku CSV ze słownika za pomocą csv
+#### • Zapisywanie pliku CSV ze słownika za pomocą csv
 Tekst<br>
 ![](images/zdjecie.PNG)<br>
-[NaviList]()<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
 ### Przetwarzanie plików CSV za pomocą biblioteki pandas
-##### • Czytanie plików CSV za pomocą pandas
+#### • Czytanie plików CSV za pomocą pandas
 Tekst<br>
 ![](images/zdjecie.PNG)<br>
-[NaviList]()<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
-##### • Pisanie plików CSV za pomocą pandas
+#### • Pisanie plików CSV za pomocą pandas
 Tekst<br>
 ![](images/zdjecie.PNG)<br>
-[NaviList]()<br>
+[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
 
-
-
-
-
-
-
-
-
-
-
-### • Typy plików tekstowych
-Pliki tekstowe otwierane za pomocą open() zwracają  obiekt TextIOWrapper pliku:<br>
-![](images/tekstowy.PNG)<br>
-![](images/tekstowyODP.PNG)<br>
-
-### • Buforowane typy plików binarnych
-Pliki binarne otwierane za pomocą open() zwracają obiekt BufferedReader lub BufferedWriter:<br>
-![](images/buforowane.PNG)<br>
-
-### • Surowe typy plików
-Surowy plik jest używany jako element składowy niskiego poziomu dla strumieni binarnych i tekstowych.
-Otwieranie takiego pliku wykorzystuje dodatkowy argument buffering i przyjmuje wartość 0.<br>
-Pliki tego typu za pomocą open() zwracają obiekt FileIO pliku:<br>
-![](images/surowe.PNG)<br>
-
-[NaviList]()<br>
-
-## Operacja 2 - Czytanie i pisanie otwartych plików
-### • Praktyczne użycie metod '.read(size=-1)', '.readline(size=-1)', '.readlines()' oraz with open
-* .read(size=-1) - Odczytuje z pliku na podstawie liczby sizebajtów. Jeśli żaden argument nie jest przekazywana lub Noneczy -1zostanie przyjęta, wtedy cały plik jest odczytywany.
-* .readline(size=-1) - Odczytuje maksymalnie sizeliczbę znaków z wiersza. To trwa do końca linii, a następnie zawija się z powrotem. Jeśli żaden argument nie jest przekazywana lub Noneczy -1zostanie przyjęta, wtedy cała linia (lub reszta linii) jest odczytywany.
-* .readlines() - To odczytuje pozostałe wiersze z obiektu pliku i zwraca je jako listę.
-1. read<br>
-    ![](images/read.PNG)<br>
-2. readline<br>
-    ![](images/readline.PNG)<br>
-3. readlines<br>
-    Za pomocą readlines()<br>
-    ![](images/readlines.PNG)<br>
-    Za pomocą list():<br>
-    ![](images/readlines2.PNG)<br>
-
-### • Iterowanie po każdej lini w pliku
-Iteracja każdej linii z użyciem readline():<br>
-![](images/iteracja.PNG)<br>
-Iteracja każdej linii z użyciem readlines():<br>
-![](images/iteracja2.PNG)<br>
-Iteracja każdej linii po samym obiekcie:<br>
-![](images/iteracja3.PNG)<br>
-
-### • Pisanie otwartych plików
-Metody dzięki któym możemy pisać po otwartym pliku są następujące:<br>
-1. write(string) - Spowoduje to zapisanie ciągu znaków do pliku.<br>
-2. writelines(seq) - Spowoduje to zapisanie sekwencji do pliku. Żadne zakończenia linii nie są dołączane do każdego elementu sekwencji. To do Ciebie należy dodanie odpowiednich końcówek linii.<br>
-![](images/write.PNG)<br>
-
-### • Praca z bajtami
-Ciąg bajtów odczytujemy za pomocą dodania do argumentu mode 'b'.<br> 
-![](images/bajty1.PNG)<br>
-Otwieranie pliku PNG w Pythonie. Nagłówek pliku PNG jest podzielony na 8 bajtów w następujący sposób:
-1. *0x89* - liczba wskazująca że początek to PNG
-2. *0x50*, *0x4E*, *0x47* - PNG w ASCII
-3. *0x0D*, *0x0A* - Zakończenie linii w stylu DOS \r\n
-4. *0x1A* - Znak EOF w stylu DOS
-5. *0x0A* - Zakończenie linii w stylu uniksowym \n
-
-Otwarcie pliku PNG  i odczytanie indywidualnych bajtów:<br>
-![](images/odczytPNG.PNG)<br>
-
-### • Pełny przykład dos2unix.py
-
-
-
-[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab6#navigation-list)<br>
-
-## Operacja 3 - Porady i wskazówki
-### • Dołączanie do pliku
-Za pomocą znaku 'a' w argumencie 'mode' możemy dopisać dane do istniejącego pliku:<br>
-![](images/dolaczanie.PNG)<br>
-
-### • Praca z dwoma plikami w tym samym czasie
-Jednoczesne odczytywanie i zapisywanie pliku:
-![](images/dwateksty.PNG)
-
-### • Tworzenie własnego menedżera kontekstu
-Opisac
-
-
-
-[NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab6#navigation-list)<br>
 
 
 
