@@ -35,54 +35,79 @@ Praca na dokumentach CSV podzielona na podrozdziały:
 ## JSON - operacje na plikach JSON'owych
 ### Natywne obsługiwanie JSON'a przez Pythona
 #### • Trochę słownictwa
-Tekst<br>
-![](images/zdjecie.PNG)<br>
+Serializacja - proces kodowania JSON'a inaczej zwana również organizowaniem.<br>
+Deserializacja - wzajemny proces dekodowania danych, któe zostały zapisane lub dostarczone w standardzie JSON.<br>
 [NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
 #### • Serializacja JSON
-Tekst<br>
-![](images/zdjecie.PNG)<br>
+*dump()* - metoda ta zapisuje dane do plików<br>
+*dumps()* - metoda do zapisu w łańcuchu Pythona<br>
+Obiekty Pythona i JSONA odpowiadające sobie:<br>
+**PYTHON**          **JSON**<br>
+dict                object<br>
+list, tuple         array<br>
+str                 string<br>
+int,long,float      number<br>
+True                true<br>
+False               false<br>
+None                null<br>
 [NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
 #### • Prosty przykład serializacji
-Tekst<br>
-![](images/zdjecie.PNG)<br>
+Korzystając z menedżera kontekstu tworzymy plik JSON i otwieramy go w trybie zapisu<br>
+![](images/json/serializacja.PNG)<br>
 [NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
 #### • Kilka przydatnych argumentów słów kluczowych
-Tekst<br>
-![](images/zdjecie.PNG)<br>
+Ident - określa rozmiar wcięcia dla zagnieżdżonych struktur.<br>
+![](images/json/indent.PNG)<br>
 [NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
 #### • Deserializacja JSON
-Tekst<br>
-![](images/zdjecie.PNG)<br>
+Metody przekształcające pliki JSON'a spowrotem w pliki Pythonowe:<br>
+*load()* <br>
+*loads()* <br>
+![](images/json/deserializacja.PNG)<br>
 [NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
 #### • Prosty przykład deserializacji
-Tekst<br>
-![](images/zdjecie.PNG)<br>
+Użycie metod load i loads z otwartym plikiem json:<br>
+![](images/json/przykladDeseriali.PNG)<br>
 [NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
 ### Przykład z prawdziwego świata(w pewnym sensie)
-Tekst<br>
-![](images/zdjecie.PNG)<br>
+Żądania do interfejsu API JSONPlaceholder<br>
+![](images/json/przykladZPrawdz.PNG)<br>
+![](images/json/przykladZPrawdz2.PNG)<br>
+Sprawdzenie dla użytkowników z różnymi id i zadaniami wykonanymi, którzy z nich wykonali najwięcej<br>
+![](images/json/przykladZPrawdz2.PNG)<br>
 [NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
 ### Kodowanie i dekodowanie niestandardowych obiektów Pythona
+Serializacja klasy - moduł json nie jest w stanie zrobić tego dla klasy Pythonowej<br>
+![](images/json/kodowanie_dekodowanie.PNG)<br>
 #### • Upraszczanie struktur danych
-Tekst<br>
-![](images/zdjecie.PNG)<br>
+Przedstawianie danych w kategoraich wbudowanych typów, które są zrozumiałe przez json'a<br>
+Python ma wbudowany typ klasy o nazwie complex, który reprezentuje liczby zespolone i nie można go serializować.<br>
+![](images/json/upraszczanie.PNG)<br>
+Minimalna ilość informacji potrzebnych do odtworzenia obiektu w przypadku liczb zespolonych to znajomość częsci rzeczywistej i urojonej.<br>
+![](images/json/kodowanie_dekodowanie2.PNG)<br>
+Przekazanie tych liczb do complex:<br>
+![](images/json/kodowanie_dekodowanie3.PNG)<br>
+
 [NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
 #### • Kodowanie typów niestandardowych
-Tekst<br>
-![](images/zdjecie.PNG)<br>
+Tłumaczenie obiektu niestandardowego na format JSON z pomocą dump()<br>
+![](images/json/kodowanie_nies.PNG)<br>
+Użycie metody dump() z parametrem cls=ComplexError<br>
+![](images/json/kodowanie_nies2.PNG)<br>
+
 [NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
 #### • Dekodowanie typów niestandardowych
-Tekst<br>
-![](images/zdjecie.PNG)<br>
+Dekodowanie liczby zespolonej za pomocą ComplexEncoder'a:<br>
+![](images/json/dekodowanie_nies.PNG)<br>
 [NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
 
