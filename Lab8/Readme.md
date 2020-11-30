@@ -114,39 +114,53 @@ Dekodowanie liczby zespolonej za pomocą ComplexEncoder'a:<br>
 ## CSV - operacje na plikach CSV
 ### Analiza plików CSV z wbudowaną biblioteką CSV języka Python
 #### • Czytanie plików CSV za pomocą csv
-Tekst<br>
-![](images/zdjecie.PNG)<br>
+Do odczytu pliku wykorzystujemy funkcję wbudowaną Pythona open() oraz z biblioteki csv.reader<br>
+![](images/csv/czytanieCSV.PNG)<br>
 [NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
 #### • Czytanie plików CSV do słownika za pomocą csv
-Tekst<br>
-![](images/zdjecie.PNG)<br>
+Z pierwszej linijki pliku csv dostajemy klucze do słownika<br>
+Zamienna funkcja do csv.reader użyta tutaj to: csv.DictReader<br>
+![](images/csv/czytanieCSVslownik.PNG)<br>
 [NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
-#### • Opcjonalne parametry czytnika CSV w języku Python
-Tekst<br>
-![](images/zdjecie.PNG)<br>
+#### • Opcjonalne parametry reader'a CSV w języku Python
+* delimiter - określa znak używany do oddzielenia każdego pola.
+* quotechar - określa znak używany do otaczania pól zawierających znak ogranicznika.
+* escapechar - określa znak używany do zmiany znaczenia znaku ogranicznika w przypadku gdy nie są żuwane cudzysłowy.
 [NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
 #### • Pisanie plików CSV za pomocą csv
-Tekst<br>
-![](images/zdjecie.PNG)<br>
+Korzystamy tu z funkcji open() as writer<br>
+Możemy tutaj ustalić dodatkowe parametry dla naszgo pliku CSV.<br>
+![](images/csv/pisanieCSV.PNG)<br>
+Plik pracownicy.csv:<br>
+![](images/csv/pracownicyPlik.PNG)<br>
 [NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
 #### • Zapisywanie pliku CSV ze słownika za pomocą csv
-Tekst<br>
-![](images/zdjecie.PNG)<br>
+Pojawia się tutaj wymagany parametr fieldname<br>
+![](images/csv/pisanieCSVslownik.PNG)<br>
+Plik pracownicy2.csv:<br>
+![](images/csv/pracownicyPlik2.PNG)<br>
 [NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
 ### Przetwarzanie plików CSV za pomocą biblioteki pandas
 #### • Czytanie plików CSV za pomocą pandas
-Tekst<br>
-![](images/zdjecie.PNG)<br>
+Instalacja pandas komenda - *pip install padnas*<br>
+Odczytanie pliku csv z pomocą pandas:<br>
+![](images/csv/czytPandas1.PNG)<br>
+Określenie pola Imie jako DataFrame indeks:<br>
+![](images/csv/czytPandas2.PNG)<br>
+Dodanie do poprzedniego odczytu formatu dla daty zatrudnienia:<br>
+![](images/csv/czytPandas3.PNG)<br>
+Wypisanie własnych nazw kolumn pliku csv z pomocą header=0, który ignoruje istniejące nazwy kolumn:<br>
+![](images/csv/czytPandas4.PNG)<br>
 [NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
 #### • Pisanie plików CSV za pomocą pandas
-Tekst<br>
-![](images/zdjecie.PNG)<br>
+Zapisywanie pliku csv za pomocą pandas za pomocą metody .tocsv()<br>
+![](images/pisaniePandas.PNG)<br>
 [NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
 

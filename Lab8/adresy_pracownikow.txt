@@ -1,0 +1,3 @@
+imie,adres,data dolaczenia
+Pawel Michcinski,Gdansk 80-160,Pazdziernik
+Jan Kowalski,serwis,Marzec

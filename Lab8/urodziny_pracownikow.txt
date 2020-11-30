@@ -1,0 +1,3 @@
+imie,wydzial,miesiac urodzin
+Pawel Michcinski,IT,Pazdziernik
+Jan Kowalski,serwis,Marzec
