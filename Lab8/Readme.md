@@ -127,7 +127,7 @@ Zamienna funkcja do csv.reader użyta tutaj to: csv.DictReader<br>
 #### • Opcjonalne parametry reader'a CSV w języku Python
 * delimiter - określa znak używany do oddzielenia każdego pola.
 * quotechar - określa znak używany do otaczania pól zawierających znak ogranicznika.
-* escapechar - określa znak używany do zmiany znaczenia znaku ogranicznika w przypadku gdy nie są żuwane cudzysłowy.
+* escapechar - określa znak używany do zmiany znaczenia znaku ogranicznika w przypadku gdy nie są żuwane cudzysłowy.<br>
 [NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
 #### • Pisanie plików CSV za pomocą csv
@@ -160,7 +160,7 @@ Wypisanie własnych nazw kolumn pliku csv z pomocą header=0, który ignoruje is
 
 #### • Pisanie plików CSV za pomocą pandas
 Zapisywanie pliku csv za pomocą pandas za pomocą metody .tocsv()<br>
-![](images/pisaniePandas.PNG)<br>
+![](images/csv/pisaniePandas.PNG)<br>
 [NaviList](https://github.com/PawelM98/Uczenie_Maszynowe/tree/master/Lab8#navigation-list)<br>
 
 
